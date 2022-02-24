@@ -1,0 +1,34 @@
+.case {
+    height :150px;
+    width : 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .case {
+        height :100px;
+        width : 100px;
+    }
+}
+
+.select {
+    height: 125px;
+    width : 125px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}

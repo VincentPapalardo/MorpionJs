@@ -1,0 +1,22 @@
+Projet Morpion
+
+CAHIER DES CHARGES
+
+Objectif : Créer une application Web permettant a l'utilsateur de défier un autre jouer en local ou
+une IA au jeu du Morpion.
+Les règles du morpion : une grille 3x3 ou il faut aligner 3 O ou X pour gagner. Les deux joueurs
+posent chacun a leur tour leurs symbole sur la grille. On peut les aligner en vertical, en horizontal 
+et en diagonale. Un petit message affichera le vainceur et un bouton sera disponible
+pour remettre a zero la grille et recommencer une partie.
+
+Contraintes :
+- Première contrainte : Quand c'est a au tour d'un jouer, l'autre joueur ne peut pas intervenir
+(exemple, si c'est au joueur X de jouer, impossible de mettre un O sur la grille).
+
+- Deuxième contrainte : impossible de mettre un symbole sur une case déjà remplie, la page renverra un 
+message d'erreur.
+
+Ressources : Application entièrement web, languages web natif :
+HTML pour la création de la page web
+CSS pour la mise en forme de la page (Le framework Bootstrap permettra un gain de temps via des maquettes déjà prêtes).
+JavaScript pour l'intéraction avec l'utilisateur (pose des symboles, conditions de victoire etc etc)
